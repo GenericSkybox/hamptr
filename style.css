@@ -3,8 +3,10 @@
     margin: 0px;
 }
 
-.panel {
-    padding: 10px;
+#gridContainer {
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    grid-template-rows: 2fr 6fr 2fr;
 }
 
 .panelTitle {
@@ -13,30 +15,32 @@
 }
 
 #inventoryPanel {
-    float: left;
-    width: 20%;
+    grid-column: 1;
+    grid-row: 2;
+    background-color: seagreen;
 }
 
 #upgradesPanel {
-    float: left;
-    width: 60%;
+    grid-column: 2;
+    grid-row: 2;
+    background-color: rebeccapurple;
 }
 
 #resourcesPanel {
-    float: left;
-    width: 20%;
-}
-
-#mainGame {
-    height: 80%;
+    grid-column: 3;
+    grid-row: 2;
+    background-color:blanchedalmond;
 }
 
 #saveAndLoadPanel {
-    height: 10%;
+    grid-column: 1 / 4;
+    grid-row: 3;
+    background-color: aquamarine;
 }
 
 #eventPanel {
-    height: 10%;
+    grid-column: 1 / 4;
+    grid-row: 1;
     border-bottom: 1px solid #bebebe;
     background-color: #eaf77e;
 }
