@@ -1,0 +1,43 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.panel {
+    padding: 10px;
+}
+
+.panelTitle {
+    border-bottom: 1px solid #bebebe;
+    fill: azure;
+}
+
+#inventoryPanel {
+    float: left;
+    width: 20%;
+}
+
+#upgradesPanel {
+    float: left;
+    width: 60%;
+}
+
+#resourcesPanel {
+    float: left;
+    width: 20%;
+}
+
+#mainGame {
+    height: 80%;
+}
+
+#saveAndLoadPanel {
+    height: 10%;
+}
+
+#eventPanel {
+    height: 10%;
+    border-bottom: 1px solid #bebebe;
+    background-color: #eaf77e;
+}
+
